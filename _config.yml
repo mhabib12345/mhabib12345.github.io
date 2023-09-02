@@ -22,7 +22,7 @@ title: Beyond the Greatest Archimedes
 name : Muhammad Habib Manan
 email: mhabib12345@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Give me a place to stand, and a lever long enough, and I will move the world. Give me a lever long enough and a fulcrum on which to place it, and I shall move the world.
+  Give me a place to stand, and a lever long enough, and I will move the world. Give me a lever long enough and a fulcrum on which to place it, and I shall move the world (Archimedes).
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mhabibmanan
