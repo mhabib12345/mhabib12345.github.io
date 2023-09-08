@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
+date: 2023-09-09 00:00:00 +0700
+categories: draft
 ---
 
 # Welcome
