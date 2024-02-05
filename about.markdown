@@ -6,7 +6,7 @@ permalink: /about/
 
 ![Archimedes](https://cdn.britannica.com/58/187758-050-09C50136/Archimedes-canvas-Giuseppe-Nogari-Pushkin-Fine-Arts.jpg)
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
+XOD
 You can find the source code for Minima at GitHub:
 [jekyll][jekyll-organization] /
 [minima](https://github.com/jekyll/minima)
