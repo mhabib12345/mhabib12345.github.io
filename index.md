@@ -10,9 +10,9 @@ layout: default
   {% endfor %}
 </ul>
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+[Know more about author!](./about.html).
 
-[Link to another page](./about.html).
+Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 There should be whitespace between paragraphs.
 
