@@ -1,4 +1,4 @@
----
+I'm---
 layout: default
 ---
 
@@ -102,7 +102,7 @@ end
 
 ### Small image
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+![Octocat](https://www.svgrepo.com/show/199759/sun.svg)
 
 ### Large image
 
