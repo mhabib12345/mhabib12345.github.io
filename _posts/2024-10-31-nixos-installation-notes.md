@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "My notes on NixOS installation"
-last_modified_at: 2024-10-31
+last_modified_at:   2024-10-31 8:30:00 +0000
 ---
 
 Just some notes :D
