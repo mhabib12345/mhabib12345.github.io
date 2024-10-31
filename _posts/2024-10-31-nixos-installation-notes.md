@@ -1,6 +1,7 @@
 ---
 layout: default
 title:  "My notes on NixOS installation"
+last_modified_at: 2024-10-31
 ---
 
 Just some notes :D
