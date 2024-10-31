@@ -15,12 +15,12 @@ Latest posts
   {% endfor %}
 </ul>
 
-<h5>Categories</h5>
-{% for category in site.categories %}
-    {% assign cat = category[0] %}
-    <h6><a href="#">{{ cat }}</a></h6>
-    {% for post in site.categories[cat] %}
-        <a href="{{ post.url }}">{{ post.title }}</a> <small>{{ post.date }}</small>
-    {% endfor %}
+<h1>Archive of posts from {{ page.date | date: "%Y" }}</h1>
+<ul class="posts">
+{% for post in page.posts %}
+  <li>
+    <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  </li>
 {% endfor %}
-
+</ul>
