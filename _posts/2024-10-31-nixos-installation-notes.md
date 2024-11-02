@@ -6,6 +6,14 @@ last_modified_at:   2024-10-31 8:30:00 +0000
 
 Just some notes :D
 
+Lets go to the plan for the whole system structure :D
+
+| Partition | Filesystem | Mountpoint | Subvolume | Compress (level) |
+|-----------|------------|------------|-----------|-----------|
+| /dev/sda1 | FAT32       | /boot/efi   |    -       |  -       |
+| /dev/sda2 | btrfs       | /      | root, home|    zstd (1:5)  |        
+
+
 Create root partition 
 ```sh
 mkfs.btrfs /dev/vda2
