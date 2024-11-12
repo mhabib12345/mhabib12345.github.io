@@ -5,7 +5,7 @@ title:  "GLB & GLBB!"
 
 # GLB dan GLBB
 
-Dalam fisika, gerak lurus adalah salah satu bentuk gerak yang paling dasar. Pada gerak lurus, benda bergerak sepanjang garis lurus dengan kecepatan tertentu. Dua jenis utama gerak lurus adalah **Gerak Lurus Beraturan (GLB)** dan **Gerak Lurus Berubah Beraturan (GLBB)**.
+Dalam fisika, sebuah gerak lurus adalah salah satu bentuk gerak yang paling dasar. Pada gerak lurus, benda bergerak sepanjang garis lurus dengan kecepatan tertentu. Dua jenis utama gerak lurus adalah **Gerak Lurus Beraturan (GLB)** dan **Gerak Lurus Berubah Beraturan (GLBB)**.
 
 ## 1. Gerak Lurus Beraturan (GLB)
 
