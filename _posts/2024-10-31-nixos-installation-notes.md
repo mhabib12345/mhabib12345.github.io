@@ -47,7 +47,15 @@ Start the installation process
 nixos-install
 ```
 
-# Sharing is caring!
+## Sharing is caring!
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var currentURL = window.location.href;
+    document.getElementById('threads-share').href = 'https://www.threads.com/share?text=Check%20this%20out!&url=' + encodeURIComponent(currentURL);
+    document.getElementById('instagram-share').href = 'https://www.instagram.com/sharer.php?u=' + encodeURIComponent(currentURL);
+    document.getElementById('twitter-share').href = 'https://twitter.com/share?url=' + encodeURIComponent(currentURL) + '&text=Check%20this%20out!';
+  });
+</script>
 <a id="threads-share" href="#" target="_blank">
   <img src="https://img.shields.io/badge/Share_on-Threads-black?style=for-the-badge&logo=threads" alt="Share on Threads">
 </a>
@@ -57,17 +65,9 @@ nixos-install
 </a>
 
 <a id="twitter-share" href="#" target="_blank">
-  <img src="https://img.shields.io/badge/Share_on-Twitter-1DA1F2?style=for-the-badge&logo=twitter" alt="Share on Twitter">
+  <img src="https://img.shields.io/badge/Share_on-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Share on Twitter">
 </a>
 
 
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    var currentURL = window.location.href;
-    document.getElementById('threads-share').href = 'https://www.threads.com/share?text=Check%20this%20out!&url=' + encodeURIComponent(currentURL);
-    document.getElementById('instagram-share').href = 'https://www.instagram.com/sharer.php?u=' + encodeURIComponent(currentURL);
-    document.getElementById('twitter-share').href = 'https://twitter.com/share?url=' + encodeURIComponent(currentURL) + '&text=Check%20this%20out!';
-  });
-</script>
 
 
