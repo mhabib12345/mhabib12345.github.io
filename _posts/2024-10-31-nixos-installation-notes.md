@@ -57,8 +57,9 @@ nixos-install
 </a>
 
 <a id="twitter-share" href="#" target="_blank">
-  <img src="https://img.shields.io/badge/Share_on-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Share on Twitter">
+  <img src="https://img.shields.io/badge/Share_on-Twitter-1DA1F2?style=for-the-badge&logo=twitter" alt="Share on Twitter">
 </a>
+
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
@@ -68,4 +69,5 @@ nixos-install
     document.getElementById('twitter-share').href = 'https://twitter.com/share?url=' + encodeURIComponent(currentURL) + '&text=Check%20this%20out!';
   });
 </script>
+
 
