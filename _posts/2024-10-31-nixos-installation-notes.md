@@ -48,16 +48,6 @@ nixos-install
 ```
 
 # Sharing is caring!
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    var currentURL = window.location.href;
-    document.getElementById('threads-share').href = 'https://www.threads.com/share?text=Check%20this%20out!&url=' + encodeURIComponent(currentURL);
-    document.getElementById('instagram-share').href = 'https://www.instagram.com/sharer.php?u=' + encodeURIComponent(currentURL);
-  });
-</script>
-
-<!-- Twitter Share Button -->
-<button id="shareOnTwitter">Share on Twitter</button>
 <a id="threads-share" href="#" target="_blank">
   <img src="https://img.shields.io/badge/Share_on-Threads-black?style=for-the-badge&logo=threads" alt="Share on Threads">
 </a>
@@ -66,15 +56,16 @@ nixos-install
   <img src="https://img.shields.io/badge/Share_on-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Share on Instagram">
 </a>
 
-<script>
-  document.getElementById('shareOnTwitter').addEventListener('click', function() {
-    // Get the current page's URL
-    const pageUrl = encodeURIComponent(window.location.href);
-    // Define your tweet text
-    const tweetText = encodeURIComponent("Check this out!");
+<a id="twitter-share" href="#" target="_blank">
+  <img src="https://img.shields.io/badge/Share_on-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Share on Twitter">
+</a>
 
-    // Open Twitter's share URL in a new window
-    const twitterShareUrl = `https://twitter.com/intent/tweet?url=${pageUrl}&text=${tweetText}`;
-    window.open(twitterShareUrl, '_blank');
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var currentURL = window.location.href;
+    document.getElementById('threads-share').href = 'https://www.threads.com/share?text=Check%20this%20out!&url=' + encodeURIComponent(currentURL);
+    document.getElementById('instagram-share').href = 'https://www.instagram.com/sharer.php?u=' + encodeURIComponent(currentURL);
+    document.getElementById('twitter-share').href = 'https://twitter.com/share?url=' + encodeURIComponent(currentURL) + '&text=Check%20this%20out!';
   });
 </script>
+
