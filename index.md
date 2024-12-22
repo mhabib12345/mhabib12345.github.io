@@ -20,5 +20,6 @@ layout: default
 
 Other blog :)
 [Hugo](https://mhabib12345.github.io/hugo/)
+
 [plain HTML](https://mhabib12345.github.io/math/)
 
